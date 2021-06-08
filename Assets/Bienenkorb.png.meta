@@ -1,0 +1,1320 @@
+fileFormatVersion: 2
+guid: ffdf391c6f171fa40b3a32577a6cbbf1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7516570163434860489
+    second: Bienenkorb_0
+  - first:
+      213: 3257925330255092691
+    second: Bienenkorb_1
+  - first:
+      213: 7720917106523078224
+    second: Bienenkorb_2
+  - first:
+      213: -7878483134782931286
+    second: Bienenkorb_3
+  - first:
+      213: -4080168561210002559
+    second: Bienenkorb_4
+  - first:
+      213: 4854049826123857938
+    second: Bienenkorb_5
+  - first:
+      213: -2934307267300644660
+    second: Bienenkorb_6
+  - first:
+      213: 8866264068011871291
+    second: Bienenkorb_7
+  - first:
+      213: 1509239186079241815
+    second: Bienenkorb_8
+  - first:
+      213: -2408008233557245642
+    second: Bienenkorb_9
+  - first:
+      213: -5900459783531861007
+    second: Bienenkorb_10
+  - first:
+      213: -7209716155483557694
+    second: Bienenkorb_11
+  - first:
+      213: 6731673189483826206
+    second: Bienenkorb_12
+  - first:
+      213: -3096900852972686640
+    second: Bienenkorb_13
+  - first:
+      213: -2469141845243881219
+    second: Bienenkorb_14
+  - first:
+      213: -3613773202747936517
+    second: Bienenkorb_15
+  - first:
+      213: -2797724552576364478
+    second: Bienenkorb_16
+  - first:
+      213: 7154775700552056755
+    second: Bienenkorb_17
+  - first:
+      213: -146832989098040917
+    second: Bienenkorb_18
+  - first:
+      213: -3661453991317415746
+    second: Bienenkorb_19
+  - first:
+      213: -4225595747442604623
+    second: Bienenkorb_20
+  - first:
+      213: -230323907863648733
+    second: Bienenkorb_21
+  - first:
+      213: 4821220899848735973
+    second: Bienenkorb_22
+  - first:
+      213: -6868956719301751248
+    second: Bienenkorb_23
+  - first:
+      213: -4552673334414458997
+    second: Bienenkorb_24
+  - first:
+      213: 8512596100053084181
+    second: Bienenkorb_25
+  - first:
+      213: 3840812870414544010
+    second: Bienenkorb_26
+  - first:
+      213: -6557377835210663601
+    second: Bienenkorb_27
+  - first:
+      213: 2111226555023526270
+    second: Bienenkorb_28
+  - first:
+      213: 3379459577242961235
+    second: Bienenkorb_29
+  - first:
+      213: -6001777781650137264
+    second: Bienenkorb_30
+  - first:
+      213: 4912267417690327090
+    second: Bienenkorb_31
+  - first:
+      213: -5099443938483862446
+    second: Bienenkorb_32
+  - first:
+      213: 7839997028478984262
+    second: Bienenkorb_33
+  - first:
+      213: 4208217938512952362
+    second: Bienenkorb_34
+  - first:
+      213: 6067044709628181645
+    second: Bienenkorb_35
+  - first:
+      213: -2997937406924934504
+    second: Bienenkorb_36
+  - first:
+      213: 5813218225893009479
+    second: Bienenkorb_37
+  - first:
+      213: 7485058984606409147
+    second: Bienenkorb_38
+  - first:
+      213: -3191327834845882203
+    second: Bienenkorb_39
+  - first:
+      213: 4024431962364676876
+    second: Bienenkorb_40
+  - first:
+      213: 572695099205874306
+    second: Bienenkorb_41
+  - first:
+      213: 3315984397784500070
+    second: Bienenkorb_42
+  - first:
+      213: 7730148551322962651
+    second: Bienenkorb_43
+  - first:
+      213: -8882950645583405344
+    second: Bienenkorb_44
+  - first:
+      213: 3679073930628960873
+    second: Bienenkorb_45
+  - first:
+      213: 5927262521080521489
+    second: Bienenkorb_46
+  - first:
+      213: -1478641849128136917
+    second: Bienenkorb_47
+  - first:
+      213: 5969467099957624554
+    second: Bienenkorb_48
+  - first:
+      213: -4825805488181708913
+    second: Bienenkorb_49
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bienenkorb_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 33}
+        - {x: -48, y: 96}
+        - {x: 0, y: 96}
+        - {x: 0, y: 33}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfa5d83db8305860800000000000000
+      internalID: 7516570163434860489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db1a9e93d9763d20800000000000000
+      internalID: 3257925330255092691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e7b828335362b60800000000000000
+      internalID: 7720917106523078224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae7b56b4510aa290800000000000000
+      internalID: -7878483134782931286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1837c5daf445067c0800000000000000
+      internalID: -4080168561210002559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210c828599c0d5340800000000000000
+      internalID: 4854049826123857938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8a2b6461f3747d0800000000000000
+      internalID: -2934307267300644660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c48a2c13c4b0b70800000000000000
+      internalID: 8866264068011871291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7565a5f1b05e1f410800000000000000
+      internalID: 1509239186079241815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 204.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631ca9e0549059ed0800000000000000
+      internalID: -2408008233557245642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbea1fb61b5d1ea0800000000000000
+      internalID: -5900459783531861007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0f105fa51f1fb90800000000000000
+      internalID: -7209716155483557694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c44339915bb6d50800000000000000
+      internalID: 6731673189483826206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d275f115199505d0800000000000000
+      internalID: -3096900852972686640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df89f26e298dbbdd0800000000000000
+      internalID: -2469141845243881219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0326f2b6c49ddc0800000000000000
+      internalID: -3613773202747936517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2401c48a75c7c29d0800000000000000
+      internalID: -2797724552576364478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf700f879eda4360800000000000000
+      internalID: 7154775700552056755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1a083ac2856fdf0800000000000000
+      internalID: -146832989098040917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 153.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8d61e7ef6ef2dc0800000000000000
+      internalID: -3661453991317415746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5484d4e0bab55c0800000000000000
+      internalID: -4225595747442604623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326e18840a9bdccf0800000000000000
+      internalID: -230323907863648733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec4c2f4dda68e240800000000000000
+      internalID: 4821220899848735973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e8c70d1409ca0a0800000000000000
+      internalID: -6868956719301751248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f35d339b7a1d0c0800000000000000
+      internalID: -4552673334414458997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_25
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5182a042d01d22670800000000000000
+      internalID: 8512596100053084181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8caec5c4fe4d4530800000000000000
+      internalID: 3840812870414544010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f499f32f9938ff4a0800000000000000
+      internalID: -6557377835210663601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e798c84bd559c4d10800000000000000
+      internalID: 2111226555023526270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_29
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 102.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355cb52949046ee20800000000000000
+      internalID: 3379459577242961235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f59e708e665bca0800000000000000
+      internalID: -6001777781650137264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2384829a031eb2440800000000000000
+      internalID: 4912267417690327090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25486a681c22b39b0800000000000000
+      internalID: -5099443938483862446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640ab9262c34dcc60800000000000000
+      internalID: 7839997028478984262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cbd724be7966a30800000000000000
+      internalID: 4208217938512952362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cfcc1d409723450800000000000000
+      internalID: 6067044709628181645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8923269efcf2566d0800000000000000
+      internalID: -2997937406924934504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_37
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748ed2c3d23bca050800000000000000
+      internalID: 5813218225893009479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1af4c2d7540e760800000000000000
+      internalID: 7485058984606409147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 51.8
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8d13a1e3026b3d0800000000000000
+      internalID: -3191327834845882203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b89732c87a9d730800000000000000
+      internalID: 4024431962364676876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282f5c0982f92f700800000000000000
+      internalID: 572695099205874306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667ceaead3eb40e20800000000000000
+      internalID: 3315984397784500070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda0b9eb621074b60800000000000000
+      internalID: 7730148551322962651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee9ca4a37b69b480800000000000000
+      internalID: -8882950645583405344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9621a815f32be0330800000000000000
+      internalID: 3679073930628960873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_46
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113ad73ebddd14250800000000000000
+      internalID: 5927262521080521489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_47
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fc0b8821fca7be0800000000000000
+      internalID: -1478641849128136917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeefa5723bec7d250800000000000000
+      internalID: 5969467099957624554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bienenkorb_49
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0.79999924
+        width: 48
+        height: 51.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f877cc90a7b470db0800000000000000
+      internalID: -4825805488181708913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
