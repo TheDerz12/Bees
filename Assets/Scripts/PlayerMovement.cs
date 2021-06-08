@@ -20,8 +20,23 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        direction = (mousePosition - transform.position).normalized;
+        if (Input.GetMouseButton(0))
+        {
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
+        
+        direction = (mousePosition - transform.position);
+      
+        if (direction.magnitude < Time.fixedDeltaTime * moveSpeed)
+        {
+            rb.velocity = new Vector2(0, 0);
+        }
+        else
+        { 
+            rb.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
+            direction.Normalize();
+        }
+
         rb.velocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
     }
 }
