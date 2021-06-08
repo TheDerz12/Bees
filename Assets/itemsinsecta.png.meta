@@ -1,55 +1,61 @@
 fileFormatVersion: 2
-guid: 44f26a0fdf1d72f41bf2a9210010654d
+guid: 8845e3719d840624eb5eeb5feabcaec8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8838733784046698314
-    second: guy_0
+      213: 4656246014050427607
+    second: itemsinsecta_0
   - first:
-      213: -85143026333325830
-    second: guy_1
+      213: 6904836430164864632
+    second: itemsinsecta_1
   - first:
-      213: -4596925854950981443
-    second: guy_2
+      213: 2463386912375139600
+    second: itemsinsecta_2
   - first:
-      213: 5649436337669503486
-    second: guy_3
+      213: 3835582152682752455
+    second: itemsinsecta_3
   - first:
-      213: -346737890182201901
-    second: guy_4
+      213: 5831963635120633859
+    second: itemsinsecta_4
   - first:
-      213: -3731534713186674114
-    second: guy_5
+      213: -627144852355272060
+    second: itemsinsecta_5
   - first:
-      213: -7956894764785292722
-    second: guy_6
+      213: 4435558581921822745
+    second: itemsinsecta_6
   - first:
-      213: -3728694128208711153
-    second: guy_7
+      213: 6474779384236983405
+    second: itemsinsecta_7
   - first:
-      213: 3597905369174760592
-    second: guy_8
+      213: 2364507322375486838
+    second: itemsinsecta_8
   - first:
-      213: 6489609720678004854
-    second: guy_9
+      213: 7296865032613665274
+    second: itemsinsecta_9
   - first:
-      213: -3574186129514847223
-    second: guy_10
+      213: 6868073904635233158
+    second: itemsinsecta_10
   - first:
-      213: -8368286137474130107
-    second: guy_11
+      213: -7431402775609312982
+    second: itemsinsecta_11
   - first:
-      213: 444980934266829533
-    second: guy_12
+      213: -4734099495346539478
+    second: itemsinsecta_12
   - first:
-      213: -8910553008350129655
-    second: guy_13
+      213: -3964258060580511681
+    second: itemsinsecta_13
   - first:
-      213: 5756460171801650191
-    second: guy_14
+      213: -8419023678030649827
+    second: itemsinsecta_14
   - first:
-      213: 4582971120410572693
-    second: guy_15
+      213: 287950409606378233
+    second: itemsinsecta_15
+  - first:
+      213: -4632645112229184994
+    second: itemsinsecta_16
+  - first:
+      213: 8483448052700314352
+    second: itemsinsecta_17
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -147,13 +153,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: guy_0
+      name: itemsinsecta_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 72
-        width: 16
-        height: 24
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,41 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b007a9f372865580800000000000000
-      internalID: -8838733784046698314
+      spriteID: 7d2ed46741f4e9040800000000000000
+      internalID: 4656246014050427607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 72
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af5ec406ed281def0800000000000000
-      internalID: -85143026333325830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guy_2
+      name: itemsinsecta_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 72
-        width: 16
-        height: 24
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db086dc5a407430c0800000000000000
-      internalID: -4596925854950981443
+      spriteID: 87e272c5628e2df50800000000000000
+      internalID: 6904836430164864632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_3
+      name: itemsinsecta_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 72
-        width: 16
-        height: 24
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef979f7ca64d66e40800000000000000
-      internalID: 5649436337669503486
+      spriteID: 01d67706855bf2220800000000000000
+      internalID: 2463386912375139600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_4
+      name: itemsinsecta_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 24
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd7589d9b3203bf0800000000000000
-      internalID: -346737890182201901
+      spriteID: 7c9cb7565a9ba3530800000000000000
+      internalID: 3835582152682752455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_5
+      name: itemsinsecta_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 24
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3a1879e2fce63cc0800000000000000
-      internalID: -3731534713186674114
+      spriteID: 3087c5ee60c4fe050800000000000000
+      internalID: 5831963635120633859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_6
+      name: itemsinsecta_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 24
+        x: 160
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4aaecd6e5e639190800000000000000
-      internalID: -7956894764785292722
+      spriteID: 48236ac541feb47f0800000000000000
+      internalID: -627144852355272060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_7
+      name: itemsinsecta_6
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 24
+        x: 192
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +293,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02f8042274014cc0800000000000000
-      internalID: -3728694128208711153
+      spriteID: 918b2e797054e8d30800000000000000
+      internalID: 4435558581921822745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_8
+      name: itemsinsecta_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
-        width: 16
-        height: 24
+        x: 224
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +314,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09cd129eed35ee130800000000000000
-      internalID: 3597905369174760592
+      spriteID: d64c77c8b890bd950800000000000000
+      internalID: 6474779384236983405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_9
+      name: itemsinsecta_8
       rect:
         serializedVersion: 2
-        x: 16
-        y: 24
-        width: 16
-        height: 24
+        x: 256
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +335,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6783fe358a9bf0a50800000000000000
-      internalID: 6489609720678004854
+      spriteID: 67d300bc1ea60d020800000000000000
+      internalID: 2364507322375486838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_10
+      name: itemsinsecta_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 24
-        width: 16
-        height: 24
+        x: 288
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +356,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 904a32de6a0f56ec0800000000000000
-      internalID: -3574186129514847223
+      spriteID: af918e2361ca34560800000000000000
+      internalID: 7296865032613665274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_11
+      name: itemsinsecta_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 24
-        width: 16
-        height: 24
+        x: 320
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +377,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54f57055810eddb80800000000000000
-      internalID: -8368286137474130107
+      spriteID: 683c9e0e3dc405f50800000000000000
+      internalID: 6868073904635233158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_12
+      name: itemsinsecta_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2974f08c8a5ed890800000000000000
+      internalID: -7431402775609312982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemsinsecta_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24738067991d4eb0800000000000000
+      internalID: -4734099495346539478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemsinsecta_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30ae152c402cf8c0800000000000000
+      internalID: -3964258060580511681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemsinsecta_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16616b129e992b80800000000000000
+      internalID: -8419023678030649827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: itemsinsecta_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,41 +482,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddabbc65dc3ec2600800000000000000
-      internalID: 444980934266829533
+      spriteID: 9f234853f510ff300800000000000000
+      internalID: 287950409606378233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_13
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9029001cf3b575480800000000000000
-      internalID: -8910553008350129655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: guy_14
+      name: itemsinsecta_16
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 16
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f04ebe7f60e03ef40800000000000000
-      internalID: 5756460171801650191
+      spriteID: e1a3123b0d985bfb0800000000000000
+      internalID: -4632645112229184994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: guy_15
+      name: itemsinsecta_17
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 0
-        width: 16
-        height: 24
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,8 +524,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59732ffc3fbf99f30800000000000000
-      internalID: 4582971120410572693
+      spriteID: 0fa7ea38e034bb570800000000000000
+      internalID: 8483448052700314352
       vertices: []
       indices: 
       edges: []
