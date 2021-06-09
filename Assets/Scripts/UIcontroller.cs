@@ -34,10 +34,11 @@ public class UIcontroller : MonoBehaviour
     float fertilizers = 0;
     float pesticides = 0;
 
-
+    // for planting
     public Button plantButton;
+    public GameObject plantButtonComponent;
+    public GameObject originalPlant;
     Vector2 mousePosition = new Vector2();
-
 
 
     // Start is called before the first frame update
@@ -53,14 +54,14 @@ public class UIcontroller : MonoBehaviour
         if (shopOpen)
         {
             shopMenu.SetActive(true);
-            if (honey <= seedsPrice) {
+            if (honey < seedsPrice) {
                 seedsButton.interactable = false;
             }
-            if (honey <= fertilizerPrice)
+            if (honey < fertilizerPrice)
             {
                 fertilizerButton.interactable = false;
             }
-            if (honey <= pesticidePrice)
+            if (honey < pesticidePrice)
             {
                 pesticideButton.interactable = false;
             }
@@ -86,6 +87,24 @@ public class UIcontroller : MonoBehaviour
         if (Input.GetMouseButton(0)) {
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
+
+        if (mousePosition.x > -5 && mousePosition.x < 3.5 && mousePosition.y > -5 && mousePosition.y < 3)
+        {
+            plantButtonComponent.SetActive(true);
+            if (seeds > 0)
+            {
+                plantButton.interactable = true;
+            }
+            else {
+                plantButton.interactable = false;
+            }
+        }
+        else
+        {
+            plantButtonComponent.SetActive(false);
+        }
+
+
 }
 
     public void BuySeed()
@@ -104,6 +123,13 @@ public class UIcontroller : MonoBehaviour
     public void BuyInsecticide() {
         pesticides++;
         honey -= pesticidePrice;
+    }
+
+    public void PlantSeed()
+    {
+        seeds -= 1;
+        GameObject newPlant = Instantiate(originalPlant);
+        newPlant.transform.position = mousePosition;
     }
 
     public void OpenShop() {
