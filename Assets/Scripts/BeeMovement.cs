@@ -7,18 +7,22 @@ public class BeeMovement : MonoBehaviour
 
     public float speed;
     public Rigidbody2D rb;
-    private float frameTimer;
-    private int frameIndex;
+    
     public BeeState state;
-    public Vector3 target;
-    public Vector2 direction;
+    private Vector3 target;
+    private Vector2 direction;
+    private int laps = 0;
+    public float waitTime = 4;
+    private float saveTime;
+    private int time;
    
 
     public enum BeeState
     {
         Roam,
         SeekFlower,
-        GoToHive
+        GoToHive,
+        Waiting
     }
     
 
@@ -29,50 +33,115 @@ public class BeeMovement : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         direction = (target - transform.position);
 
-        if (direction.magnitude < Time.fixedDeltaTime * speed)
+        switch (state)
         {
-            if (state == BeeState.Roam)
+            case BeeState.Waiting:
+                WaitingLogic();
+                break;
+            case BeeState.Roam:
+                RoamLogic();
+                break;
+            case BeeState.SeekFlower:
+                SeekFlowerLogic();
+                break;
+            case BeeState.GoToHive:
+                GoToHiveLogic();
+                break;
+
+        }
+
+    }
+
+    private void WaitingLogic()
+    {
+        if(saveTime < Time.time)
+        {
+            
+            if(laps < 5)
             {
-                target = new Vector3(Random.Range(-6.5f, 6.5f), Random.Range(-5, 5), 0);
-            }
-            if(state == BeeState.SeekFlower)
-            {
-                target = new Vector3(Random.Range(-6.5f, 6.5f), Random.Range(-5, 5), 0);
+                state = BeeState.SeekFlower;
+
                 GameObject[] flowerArray = GameObject.FindGameObjectsWithTag("Flower");
-                if(flowerArray == null)
+
+                int flowerIndex = (Random.Range(0, flowerArray.Length));
+
+                if (flowerArray.Length == 0)
                 {
                     state = BeeState.Roam;
                 }
-                int flowerIndex = (Random.Range(0, flowerArray.Length));
-
-                target = flowerArray[flowerIndex].transform.position;
+                else
+                {
+                    target = flowerArray[flowerIndex].transform.position;
+                }
             }
+            else
+            {
+                GameObject hive = GameObject.FindGameObjectWithTag("Hive");
+                state = BeeState.GoToHive;
+                target = hive.transform.position;
+                laps = 0;
+            }
+          
+
+        }
+    }
+    private void SeekFlowerLogic()
+    {
+        direction = (target - transform.position);
+
+        if (direction.magnitude < speed * Time.fixedDeltaTime)
+        {
+            state = BeeState.Waiting;
+            saveTime = waitTime + Time.time;
+            rb.velocity = Vector2.zero;
+            laps++;
+           
+        }
+        else
+        {
+            direction.Normalize();
+            rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
+        }
+       
+
+        
+    }
+    private void GoToHiveLogic()
+    {
+        direction = (target - transform.position);
+        
+
+        if (direction.magnitude < speed * Time.fixedDeltaTime)
+        {
+            state = BeeState.Waiting;
+            saveTime = waitTime + Time.time;
+            rb.velocity = Vector2.zero;
             
         }
         else
         {
-            rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
             direction.Normalize();
+            rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
         }
-
-        rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
-
     }
-
-    void TransitionToState(BeeState newState)
+    private void RoamLogic()
     {
-        frameTimer = 0.0f;
-        frameIndex = 0;
-        state = newState;
-    }
+        direction = (target - transform.position);
+        
 
-    BeeState GetState()
-    {
+        if (direction.magnitude < speed * Time.fixedDeltaTime)
+        {
+            target = new Vector3(Random.Range(-6.5f, 6.5f), Random.Range(-5, 5), 0);
 
-        return BeeState.Roam;
+        }
+        else
+        {
+            direction.Normalize();
+            rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
+        }
     }
 }
