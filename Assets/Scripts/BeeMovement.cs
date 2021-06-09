@@ -22,7 +22,8 @@ public class BeeMovement : MonoBehaviour
         Roam,
         SeekFlower,
         GoToHive,
-        Waiting
+        Waiting,
+        GoToBank
     }
     
 
@@ -50,6 +51,8 @@ public class BeeMovement : MonoBehaviour
                 break;
             case BeeState.GoToHive:
                 GoToHiveLogic();
+                break;
+            case BeeState.GoToBank:
                 break;
 
         }
@@ -143,5 +146,10 @@ public class BeeMovement : MonoBehaviour
             direction.Normalize();
             rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
         }
+    }
+
+    private void GoToBank()
+    {
+
     }
 }
