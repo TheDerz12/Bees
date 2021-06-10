@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 309772445163264445}
   m_Layer: 0
   m_Name: 'Bee '
-  m_TagString: Untagged
+  m_TagString: Bee
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   rb: {fileID: 0}
-  state: 0
+  state: 4
   waitTime: 4
 --- !u!114 &309772445163264445
 MonoBehaviour:

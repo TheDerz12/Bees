@@ -11,7 +11,7 @@ public class BeeMovement : MonoBehaviour
     public BeeState state;
     private Vector3 target;
     private Vector2 direction;
-    private int laps = 0;
+    protected int laps = 0;
     public float waitTime = 4;
     private float saveTime;
     private int time;
@@ -53,6 +53,7 @@ public class BeeMovement : MonoBehaviour
                 GoToHiveLogic();
                 break;
             case BeeState.GoToBank:
+                GoToBankLogic();
                 break;
 
         }
@@ -63,8 +64,8 @@ public class BeeMovement : MonoBehaviour
     {
         if(saveTime < Time.time)
         {
-            
-            if(laps < 5)
+
+            if (laps < 5)
             {
                 state = BeeState.SeekFlower;
 
@@ -88,6 +89,7 @@ public class BeeMovement : MonoBehaviour
                 target = hive.transform.position;
                 laps = 0;
             }
+            
           
 
         }
@@ -148,8 +150,26 @@ public class BeeMovement : MonoBehaviour
         }
     }
 
-    private void GoToBank()
+    private void GoToBankLogic()
     {
+        direction = (target - transform.position);
 
+        GameObject bank = GameObject.FindGameObjectWithTag("Bank");
+        state = BeeState.GoToBank;
+        target = bank.transform.position;
+       
+
+        if (direction.magnitude < speed * Time.fixedDeltaTime)
+        {
+            state = BeeState.Waiting;
+            saveTime = waitTime + Time.time;
+            rb.velocity = Vector2.zero;
+
+        }
+        else
+        {
+            direction.Normalize();
+            rb.velocity = new Vector2(direction.x * speed, direction.y * speed);
+        }
     }
 }
