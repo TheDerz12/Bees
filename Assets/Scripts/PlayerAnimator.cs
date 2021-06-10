@@ -14,6 +14,9 @@ public class PlayerAnimator : MonoBehaviour
     public Sprite[] walkDownAnimation;
     public Sprite[] walkUpAnimation;
 
+    public AudioClip walkSound;
+    private AudioSource audioSource;
+
     private Rigidbody2D rb;
     private SpriteRenderer sRenderer;
     public AnimationState state = AnimationState.Idle;
@@ -36,6 +39,7 @@ public class PlayerAnimator : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         sRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
 
         animationAtlas.Add(AnimationState.Idle, idleAnimation);
         animationAtlas.Add(AnimationState.WalkUp, walkUpAnimation);
@@ -87,10 +91,19 @@ public class PlayerAnimator : MonoBehaviour
 
             if(rb.velocity.x > 0)
             {
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.PlayScheduled(1.5);
+                }
                 return AnimationState.WalkR;
             }
             else
             {
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.PlayScheduled(1.5);
+                }
+
                 return AnimationState.WalkL;
             }
 
@@ -100,12 +113,21 @@ public class PlayerAnimator : MonoBehaviour
         {
             if(rb.velocity.y > 0)
             {
+
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.PlayScheduled(1.5);
+                }
                 return AnimationState.WalkUp;
             }
 
 
             else
             {
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.PlayScheduled(1.5);
+                }
                 return AnimationState.WalkDown;
             }
         }
