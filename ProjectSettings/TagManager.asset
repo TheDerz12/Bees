@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Flower
   - Hive
+  - Button
+  - Bank
+  - Bee
   layers:
   - Default
   - TransparentFX
