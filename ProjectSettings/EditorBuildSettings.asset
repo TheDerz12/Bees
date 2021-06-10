@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MacDaddy Scene.unity
+    guid: d767f0caece5340469c6c2367c1207dd
   m_configObjects: {}

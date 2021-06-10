@@ -206,6 +206,7 @@ public class UIcontroller : MonoBehaviour
         newPlant.transform.position = mousePosition;
         FlowerController flowerScript = newPlant.GetComponent<FlowerController>();
         flowerScript.StartOver();
+        plantButton.interactable = false;
     }
 
     public void usePesticide() {
