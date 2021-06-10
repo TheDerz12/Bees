@@ -13,23 +13,22 @@ public class SpawnBee : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentTimeToSpawn = timeToSpawn;
+        //currentTimeToSpawn = timeToSpawn;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(currentTimeToSpawn > 0)
-        {
-            currentTimeToSpawn -= Time.deltaTime;
-        }
-        else
-        {
-            SpawnObject();
-            currentTimeToSpawn = timeToSpawn;
-
-        }
+    //    if(currentTimeToSpawn > 0)
+    //    {
+    //        currentTimeToSpawn -= Time.deltaTime;
+    //    }
+    //    else
+    //    {
+    //        SpawnObject();
+    //        currentTimeToSpawn = timeToSpawn;
+    //    }
     }
 
     public void SpawnObject()

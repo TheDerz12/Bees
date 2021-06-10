@@ -8,8 +8,8 @@ public class FlowerController : MonoBehaviour
     public Sprite[] growingAnimation;
     public SpriteRenderer srenderer;
     public GameObject UIcontrollerscriptcomponent;
+    bool helped;
     bool grown;
-    float growthStage;
     float growthCounter;
     float growthRate;
 
@@ -43,16 +43,24 @@ public class FlowerController : MonoBehaviour
     {
         grown = false;
         growthCounter = 0;
+        helped = false;
         //Debug.Log("started over!");
     }
 
-    public void useFertilizer()
+    public void UseFertilizer()
     {
         growthRate = 2f;
+        helped = true;
+        //Debug.Log("This is happening!");
     }
 
-    public void usePesticide()
+    public void UsePesticide()
     {
-        growthRate = 3f;
+        growthRate = 4f;
+        helped = true;
+    }
+
+    public bool IsHelped() {
+        return helped;
     }
 }

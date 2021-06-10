@@ -25,6 +25,7 @@ public class UIcontroller : MonoBehaviour
     public float timeLowerBound;
     public float payAmount;
     public GameObject healthBarMask;
+    public GameObject hive;
     Vector2 healthStartingScale;
     public int beehealth = 4;
     float paydayTimer;
@@ -49,6 +50,7 @@ public class UIcontroller : MonoBehaviour
     public GameObject growhelpersButtonComponent;
     Vector2 mousePosition = new Vector2();
     GameObject selectedFlower;
+    FlowerController fcontroller;
 
 
 
@@ -61,6 +63,7 @@ public class UIcontroller : MonoBehaviour
         plantButtonComponent.SetActive(false);
         growhelpersButtonComponent.SetActive(false);
         paydayTimer = 0;
+        fcontroller = originalPlant.GetComponent<FlowerController>();
     }
 
     // Update is called once per frame
@@ -112,16 +115,17 @@ public class UIcontroller : MonoBehaviour
         fertilizerPriceText.text = ((int)fertilizerPrice).ToString("G");
         pesticidePriceText.text = ((int)pesticidePrice).ToString("G");
 
-        if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Collider2D hit = Physics2D.OverlapPoint(mousePosition);
             if (hit != null && hit.gameObject.CompareTag("Flower")) {
                 GameObject selectedFlower = hit.gameObject;
                 growhelpersButtonComponent.SetActive(true);
-                
                 plantButtonComponent.SetActive(false);
-                //Debug.Log("hello");
+                fcontroller = selectedFlower.GetComponent<FlowerController>();
+                //Debug.Log("Is helped: " + fcontroller.IsHelped().ToString());
+
             }
             else if (mousePosition.x > -5 && mousePosition.x < 3.5 && mousePosition.y > -5 && mousePosition.y < 3)
             {
@@ -130,33 +134,39 @@ public class UIcontroller : MonoBehaviour
             }
             else
             {
+                if (hit != null && hit.gameObject.CompareTag("Hive"))
+                {
+                    Hurt();
+                }
                 plantButtonComponent.SetActive(false);
                 growhelpersButtonComponent.SetActive(false);
             }
-        }
-        if (seeds > 0)
-        {
-            plantButton.interactable = true;
-        }
-        else
-        {
-            plantButton.interactable = false;
-        }
-        if (fertilizers > 0)
-        {
-            fertilizeButton.interactable = true;
-        }
-        else
-        {
-            fertilizeButton.interactable = false;
-        }
-        if (pesticides > 0)
-        {
-            usePesticideButton.interactable = true;
-        }
-        else
-        {
-            usePesticideButton.interactable = false;
+
+            if (seeds > 0)
+            {
+                plantButton.interactable = true;
+            }
+            else
+            {
+                plantButton.interactable = false;
+            }
+            if (fertilizers > 0 && !fcontroller.IsHelped())
+            {
+                fertilizeButton.interactable = true;
+            }
+            else
+            {
+                fertilizeButton.interactable = false;
+            }
+            if (pesticides > 0 && !fcontroller.IsHelped())
+            {
+                usePesticideButton.interactable = true;
+            }
+            else
+            {
+                usePesticideButton.interactable = false;
+            }
+
         }
 
         if (paydayTimer >= 100f)
@@ -201,10 +211,16 @@ public class UIcontroller : MonoBehaviour
     public void usePesticide() {
         pesticides -= 1;
         Hurt();
+        fcontroller.UsePesticide();
+        fertilizeButton.interactable = false;
+        usePesticideButton.interactable = false;
     }
 
     public void useFertilizer() {
         fertilizers -= 1;
+        fcontroller.UseFertilizer();
+        fertilizeButton.interactable = false;
+        usePesticideButton.interactable = false;
     }
 
 
@@ -235,6 +251,7 @@ public class UIcontroller : MonoBehaviour
 
     public void Pay() {
         honey += payAmount;
-        
+        SpawnBee spawnbeescript = hive.GetComponent<SpawnBee>();
+        spawnbeescript.SpawnObject();
     }
 }
