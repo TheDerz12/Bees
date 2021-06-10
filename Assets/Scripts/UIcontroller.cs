@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class UIcontroller : MonoBehaviour
 {
@@ -19,10 +20,15 @@ public class UIcontroller : MonoBehaviour
     public GameObject shopMenu;
     bool shopOpen = false;
 
-    // health bar things
+    // health bar/money things
+    public float timeUpperBound;
+    public float timeLowerBound;
+    public float payAmount;
     public GameObject healthBarMask;
     Vector2 healthStartingScale;
-    int beehealth = 4;
+    public int beehealth = 4;
+    float paydayTimer;
+    float payrate;
 
     // inventory things
     public Text honeyText;
@@ -36,9 +42,15 @@ public class UIcontroller : MonoBehaviour
 
     // for planting
     public Button plantButton;
+    public Button fertilizeButton;
+    public Button usePesticideButton;
     public GameObject plantButtonComponent;
     public GameObject originalPlant;
+    public GameObject growhelpersButtonComponent;
     Vector2 mousePosition = new Vector2();
+    GameObject selectedFlower;
+
+
 
 
     // Start is called before the first frame update
@@ -46,6 +58,9 @@ public class UIcontroller : MonoBehaviour
     {
         healthStartingScale = healthBarMask.transform.localScale;
         honey = startingMoney;
+        plantButtonComponent.SetActive(false);
+        growhelpersButtonComponent.SetActive(false);
+        paydayTimer = 0;
     }
 
     // Update is called once per frame
@@ -54,19 +69,32 @@ public class UIcontroller : MonoBehaviour
         if (shopOpen)
         {
             shopMenu.SetActive(true);
-            if (honey < seedsPrice) {
+            if (honey < seedsPrice)
+            {
                 seedsButton.interactable = false;
+            }
+            else {
+                seedsButton.interactable = true;
             }
             if (honey < fertilizerPrice)
             {
                 fertilizerButton.interactable = false;
             }
+            else
+            {
+                fertilizerButton.interactable = true;
+            }
             if (honey < pesticidePrice)
             {
                 pesticideButton.interactable = false;
             }
+            else
+            {
+                pesticideButton.interactable = true;
+            }
         }
-        else {
+        else
+        {
             shopMenu.SetActive(false);
         }
 
@@ -84,28 +112,64 @@ public class UIcontroller : MonoBehaviour
         fertilizerPriceText.text = ((int)fertilizerPrice).ToString("G");
         pesticidePriceText.text = ((int)pesticidePrice).ToString("G");
 
-        if (Input.GetMouseButton(0)) {
-            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }
-
-        if (mousePosition.x > -5 && mousePosition.x < 3.5 && mousePosition.y > -5 && mousePosition.y < 3)
+        if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
         {
-            plantButtonComponent.SetActive(true);
-            if (seeds > 0)
+            mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Collider2D hit = Physics2D.OverlapPoint(mousePosition);
+            if (hit != null && hit.gameObject.CompareTag("Flower")) {
+                GameObject selectedFlower = hit.gameObject;
+                growhelpersButtonComponent.SetActive(true);
+                
+                plantButtonComponent.SetActive(false);
+                //Debug.Log("hello");
+            }
+            else if (mousePosition.x > -5 && mousePosition.x < 3.5 && mousePosition.y > -5 && mousePosition.y < 3)
             {
-                plantButton.interactable = true;
+                plantButtonComponent.SetActive(true);
+                growhelpersButtonComponent.SetActive(false);
             }
-            else {
-                plantButton.interactable = false;
+            else
+            {
+                plantButtonComponent.SetActive(false);
+                growhelpersButtonComponent.SetActive(false);
             }
+        }
+        if (seeds > 0)
+        {
+            plantButton.interactable = true;
         }
         else
         {
-            plantButtonComponent.SetActive(false);
+            plantButton.interactable = false;
+        }
+        if (fertilizers > 0)
+        {
+            fertilizeButton.interactable = true;
+        }
+        else
+        {
+            fertilizeButton.interactable = false;
+        }
+        if (pesticides > 0)
+        {
+            usePesticideButton.interactable = true;
+        }
+        else
+        {
+            usePesticideButton.interactable = false;
         }
 
-
-}
+        if (paydayTimer >= 100f)
+        {
+            Pay();
+            paydayTimer = 0f;
+        } else {
+            payrate = 100f / ((20f - beehealth) * ((timeUpperBound - timeLowerBound) / 20f) + timeLowerBound);
+            paydayTimer += payrate * Time.deltaTime;
+            //Debug.Log("paydayTimer: " + paydayTimer.ToString());
+            //Debug.Log("payrate: " + payrate.ToString());
+        }
+    }
 
     public void BuySeed()
     {
@@ -130,7 +194,19 @@ public class UIcontroller : MonoBehaviour
         seeds -= 1;
         GameObject newPlant = Instantiate(originalPlant);
         newPlant.transform.position = mousePosition;
+        FlowerController flowerScript = newPlant.GetComponent<FlowerController>();
+        flowerScript.StartOver();
     }
+
+    public void usePesticide() {
+        pesticides -= 1;
+        Hurt();
+    }
+
+    public void useFertilizer() {
+        fertilizers -= 1;
+    }
+
 
     public void OpenShop() {
         shopOpen = true;
@@ -138,5 +214,27 @@ public class UIcontroller : MonoBehaviour
 
     public void CloseShop() {
         shopOpen = false;
+    }
+
+    public void Hurt()
+    {
+        beehealth--;
+        if (beehealth < 0) {
+            Application.Quit();
+        }
+    }
+
+    public void Heal()
+    {
+        beehealth++;
+        if (beehealth >= 20) {
+            // you win the game
+            return;
+        }
+    }
+
+    public void Pay() {
+        honey += payAmount;
+        
     }
 }
