@@ -64,15 +64,15 @@ public class BeeMovement : MonoBehaviour
     {
         if(saveTime < Time.time)
         {
+            GameObject[] flowerArray = GameObject.FindGameObjectsWithTag("Flower");
 
-            if (laps < 5)
+            int flowerIndex = (Random.Range(0, flowerArray.Length));
+
+            if (laps < flowerArray.Length - 1)
             {
                 state = BeeState.SeekFlower;
 
-                GameObject[] flowerArray = GameObject.FindGameObjectsWithTag("Flower");
-
-                int flowerIndex = (Random.Range(0, flowerArray.Length));
-
+                
                 if (flowerArray.Length == 0)
                 {
                     state = BeeState.Roam;
@@ -122,10 +122,11 @@ public class BeeMovement : MonoBehaviour
 
         if (direction.magnitude < speed * Time.fixedDeltaTime)
         {
-            state = BeeState.Waiting;
-            saveTime = waitTime + Time.time;
-            rb.velocity = Vector2.zero;
-            
+          
+         state = BeeState.Waiting;
+         saveTime = waitTime + Time.time;
+         rb.velocity = Vector2.zero;
+        
         }
         else
         {
